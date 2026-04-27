@@ -1,0 +1,10 @@
+n = int(input("Enter a number: "))
+prime_factors = []
+i = 2
+while i <= n:
+   if n % i == 0:
+      prime_factors.append(i)
+      while n % i == 0:
+         n //= i
+   i += 1
+print("Prime factors:", prime_factors)
