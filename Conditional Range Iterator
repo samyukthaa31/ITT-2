@@ -1,0 +1,5 @@
+num=500
+while(num<=525):
+   while (num%2!=0 and num%10!=7):
+      print(num)
+   num+=1
