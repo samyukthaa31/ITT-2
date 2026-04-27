@@ -1,0 +1,3 @@
+tup=('S','A','M','Y','U')
+ans="".join(tup)
+print (ans)
