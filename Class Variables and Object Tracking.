@@ -1,0 +1,16 @@
+class Vehicle:
+    count = 0
+
+    def __init__(self, name, speed):
+        self.name = name
+        self.speed = speed
+        Vehicle.count += 1
+
+    def display(self):
+        print(self.name, self.speed)
+
+v1 = Vehicle("Car", 120)
+v2 = Vehicle("Bike", 80)
+
+v1.display()
+v2.display()
