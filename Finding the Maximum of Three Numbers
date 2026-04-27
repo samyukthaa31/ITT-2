@@ -1,0 +1,11 @@
+def max(x,y,z):
+   if(x>y and x>z):
+     return x
+   elif(y>x and y>z):
+     return y
+   else:
+     return z
+a=int(input("Enter the value of x:"))
+b=int(input("Enter the value of y:"))
+c=int(input("Enter the value of z:"))
+print "The maximum of ",a,",",b,",",c,"is",max(a,b,c)
