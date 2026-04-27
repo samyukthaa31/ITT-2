@@ -1,0 +1,8 @@
+def power(a,b):
+   if(b<=0):
+     print"Enter a Valid Input"
+   else:
+       print a**b
+a=int(input("Base:"))
+b=int(input("Power:"))
+power(a,b)
